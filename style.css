@@ -1,0 +1,443 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hospital-first-div{
+    background-image: url(./Assets/dctr-bg-2.jpg);
+    background-size: cover;
+    padding-bottom: 150px;
+}
+.hospital-first-name{
+    padding-top: 150px;
+    font-weight: bolder;
+    font-size: 75px;
+    justify-content: baseline;
+    width: 100%;
+   
+}
+.hospital-first-discription{
+    padding-top: 20px;
+    font-size: 20px;
+    justify-content: baseline;
+    width: 50%;
+    line-height: 35px;
+
+}
+.hospital-first-btn{
+    background-color: gray;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+}
+.hospital-first-btn:hover{
+    background-color: rgb(201, 234, 134);
+    color: red;
+}
+
+/* second section cards */
+
+.hospital-second-div{
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin: auto;
+    bottom: 50px;
+    justify-content: center;
+}
+.hospital-second-card{
+    width: 23%;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.hospital-second-card-h3{
+    font-size: 25px;
+    color: rgb(235, 231, 231);
+    font-weight: 300;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.hospital-second-card-p{
+    font-size: 15px;
+    padding-bottom: 35px;
+    color: white;
+    padding: 8px;
+}
+
+/* third section */
+.hospital-third-div{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hospital-third-div-head{
+    font-weight: bolder;
+    font-size: 75px;
+    width: 100%;
+    
+}
+.hospital-third-div-discription{
+    padding-top: 20px;
+    line-height: 28px;
+}
+
+
+/* section fourth */
+
+.hospital-fourth-div{
+    display: flex;
+    width: 100%;
+    height: 450px;
+}
+
+.hospital-fourth-div-col1-flux{
+    display: flex;
+    width: 100%;
+}
+.hospital-fourth-div-image{
+    width: 80%;
+    align-items: center;
+    height: auto;
+}
+
+/* sixth section */
+.sixth-section-div{
+    background-color: rgb(166, 162, 162);
+    width: 100%;
+    margin-top: 200px;
+}
+.sixth-section-div-head{
+    text-align: center;
+    padding-top: 180px;
+}
+.sixth-section-div-head-discription{
+    text-align: center;
+    width: 65%;
+
+}
+.sixth-section-div-departments{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-around;
+
+}
+.sixth-section-div-departments-card{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding: 0px;
+}
+.sixth-section-div-departments-card-head{
+    padding-top: 20px;
+    padding-bottom: 70px;
+    text-transform: uppercase;
+}
+
+
+/* seventh section */
+
+.seventh-section-div{
+    display: flex;
+    width: 100%;
+    padding-top: 55px;
+    justify-content: space-around;
+}
+.seventh-section-div-col-1{
+    width: 30%;
+}
+.seventh-section-div-col-2{
+    width: 30%;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+
+
+/* eight section */
+
+
+.eight-section-div {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+
+.eight-section-div-card {
+    width: 25%;
+    box-sizing: border-box;
+    color: rgb(22, 21, 21);
+    padding-bottom: 20px;
+}
+
+.eight-section-div-card img {
+    max-width: 100%;
+    height: auto;
+    height: 250px;
+}
+.eight-section-div-card h5{
+    padding-top: 5px;
+}
+
+/* nine section */
+
+.nine-section-div{
+    background-image: url(./Assets/bg-map.jpg);
+    width: 100%;
+  padding-bottom: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* ten section */
+
+.nine-section-div-row{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  
+    width: 80%;
+    padding-bottom: 80px;
+}
+
+.card  {
+    box-sizing: border-box;
+    color: rgb(12, 11, 11);
+    width: 20%;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    height: 250px;
+}
+
+/* last div */
+.hospital-last-div{
+    background-color: rgb(170, 160, 179);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 80px;
+
+}
+
+input{
+    width: 70%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    background-color: rgb(147, 139, 139);
+    color: rgb(212, 21, 21);
+    
+}
+textarea{
+    background-color: rgb(147, 139, 139);
+    color: white;
+
+
+}
+::placeholder{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive first section */
+
+@media (max-width: 768px) {
+    .hospital-first-name {
+        font-size: 75px;
+        width: 100%;
+        display: block;
+    }
+
+    .hospital-first-discription {
+        font-size:25px;
+        width: 100%;
+}
+    .hospital-first-div{
+        width: 100%;
+        height: auto;
+    }
+    .hospital-first-btn{
+        display: 100%;
+    }
+}
+
+/* responsive second section */
+@media (max-width: 768px) {
+    
+    .hospital-second-div {
+        width: 100%;
+        display: block;
+}
+    .hospital-second-card{
+        width: 100%;
+        display: block;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+    .hospital-second-card-h3{
+        width: 100%;
+        display: block;
+    }
+    .hospital-second-card-p{
+        width: 100%;
+        display: block;
+    }
+    i{
+        display: 100%;
+
+    }
+}
+/* third section */
+@media (max-width: 768px) {
+    .hospital-third-div-head {
+        font-size: 75px;
+        width: 100%;
+        display: block;
+    }
+    .hospital-third-div-discription{
+        width: 100%;
+        display: block;
+}}
+
+/* fourth section */
+
+.hospital-fourth-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 500px;
+
+}
+.hospital-fourth-div-col1{
+    width: 30%;
+    text-align: start;
+  
+}
+.hospital-fourth-div-img{
+    width: 50%;
+    
+}
+.hospital-fourth-div-image{
+    width: 100%;
+
+}
+
+/* fourth section */
+
+@media (max-width: 768px) {
+    .hospital-fourth-div {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    
+    .hospital-fourth-div-img{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+   
+    
+}
+
+/* sixth section */
+
+@media (max-width: 768px) {
+    .seventh-section-div {
+        width: 100%;
+        display: block;
+    }
+
+    
+    .seventh-section-div-col-1{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .seventh-section-div-col-2{
+        width: 100%;
+        text-align: center;
+    }
+   
+    
+}
+
+
+/* eight section */
+@media (max-width: 768px) {
+    .eight-section-div {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    
+    .eight-section-div-card{
+        width: 100%;
+        text-align: center;
+       
+        
+    }
+   
+    
+}
+
+
+
+/* ten section */
+@media (max-width: 768px) {
+    .nine-section-div-row {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    
+    .card{
+        width: 100%;
+        text-align: center;
+       
+        
+    }
+    h1{
+        text-align: center;
+    }
+   
+    
+}
+
+
